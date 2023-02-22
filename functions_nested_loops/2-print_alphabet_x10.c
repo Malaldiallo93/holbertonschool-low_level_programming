@@ -4,7 +4,6 @@
  * print_alphabet_x10 aphabet 10 times
  *
  **/
-
 void print_alphabet_x10(void)
 {
 	int d = 0;
