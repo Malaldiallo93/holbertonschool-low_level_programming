@@ -3,7 +3,7 @@
  * _islower - Shows 1 if lowercase character.
  * Else, shows 0
  *
- * @c: The character in ASCII code 
+ * @c: The character in ASCII code
  *
  * Return: 1 for lowercase. 0 for the rest.
  */
