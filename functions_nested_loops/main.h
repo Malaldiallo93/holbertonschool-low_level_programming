@@ -1,10 +1,5 @@
 #include <stdio.h>
 
-/**
- * The prototypes of all my functions
- *
- * Return: On success
- */
 int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
