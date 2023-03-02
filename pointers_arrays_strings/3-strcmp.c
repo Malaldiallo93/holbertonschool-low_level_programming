@@ -5,7 +5,7 @@
  * @s1: input
  * @s2: input
  *
- * Return void
+ * Return (_strcmp)
  */
 int _strcmp(char *s1, char *s2)
 {
