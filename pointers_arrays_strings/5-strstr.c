@@ -2,7 +2,6 @@
 
 /**
  * _strstr - function that locates a substring
- * @strstr: input
  * @haystack: a string
  * @needle: another string
  * Return: NULL
