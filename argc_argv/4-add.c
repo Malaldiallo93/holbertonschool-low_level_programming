@@ -10,7 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int result = 0, mun, i, j, k;
+	int result = 0, num, i, j, k;
 
 	for (i = 1; i < argc; i++)
 	{
@@ -29,4 +29,5 @@ int main(int argc, char *argv[])
 		result += num;
 	}
 	printf("%d\n", result);
+	return (0);
 }
