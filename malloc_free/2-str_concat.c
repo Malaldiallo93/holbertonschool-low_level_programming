@@ -2,7 +2,6 @@
 
 /**
  * str_concat - function that concatenates two strings
- *
  * @s1: string one
  * @s2: string two
  *
@@ -13,7 +12,6 @@ char *str_concat(char *s1, char *s2)
 	int i, j, len1, len2, len;
 	char * result;
 	len1 = len2 = 0;
-
 	if (s1 != NULL)
 	{
 		i = 0;
