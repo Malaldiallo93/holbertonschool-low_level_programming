@@ -1,1 +1,1 @@
- my first in C 
+ C - Structures, typedef 
