@@ -3,9 +3,8 @@
 
 /**
  * print_all - Write a function that prints anything
- * @char: input
  * @format: list of types of arguments passed to function
- * Return: void
+ * Return: no return
  */
 void print_all(const char * const format, ...)
 {
@@ -38,7 +37,7 @@ void print_all(const char * const format, ...)
 			break;
 		case 's':
 			str = va_arg(valist, char *), c = 1;
-			if (str)
+			if (!str)
 			{
 				printf("(nil)");
 				break;
