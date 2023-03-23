@@ -4,7 +4,7 @@
 /**
  * print_all - Write a function that prints anything
  * @char: input
- * @format: is a list of types of arguments passed to the function
+ * @format: list of types of arguments passed to function
  * Return: void
  */
 void print_all(const char * const format, ...)
@@ -21,7 +21,7 @@ void print_all(const char * const format, ...)
 		while (t_arg[j])
 		{
 			if (format[i] == t_arg[j] && c)
-			{	printf(", ");
+			{	printf(",");
 				break;
 			} j++;
 		}
